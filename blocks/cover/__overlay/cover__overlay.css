@@ -1,11 +1,16 @@
-.cover__overlay {  
+.cover__overlay {
   position: relative;
   top: 0;
-  background-image: url('../../../images/cover-trains.jpg');
+  background-image: url("../../../images/cover-trains.jpg");
   background-position: center;
   background-size: cover;
   bottom: 740px;
-  width: calc(100vw - calc(48px + 48px + calc((100vw - 1280px)/2) + calc((100vw - 1280px)/2)));
+  width: calc(
+    100vw -
+      calc(
+        48px + 48px + calc((100vw - 1280px) / 2) + calc((100vw - 1280px) / 2)
+      )
+  );
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -16,13 +21,13 @@
 
 .cover__overlay::before {
   display: block;
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #2A2C2F;
+  background-color: #2a2c2f;
   opacity: 0.3;
   transition: 0.3s ease-in;
 }

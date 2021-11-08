@@ -1,9 +1,14 @@
 .cover {
-  width: calc(100vw - calc(48px + 48px + calc((100vw - 1280px)/2) + calc((100vw - 1280px)/2)));
+  width: calc(
+    100vw -
+      calc(
+        48px + 48px + calc((100vw - 1280px) / 2) + calc((100vw - 1280px) / 2)
+      )
+  );
   position: relative;
   height: 46.25rem;
   margin: 0 auto;
-  padding: 0 calc((100vw - 1280px)/2);
+  padding: 0 calc((100vw - 1280px) / 2);
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
