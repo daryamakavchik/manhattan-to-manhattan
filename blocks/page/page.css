@@ -1,0 +1,36 @@
+.page {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  background-color: #2a2c2f;
+  padding: 28px 48px 24px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .page {
+    padding: 28px 0 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .page {
+    padding: 28px 0 24px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .page {
+    padding: 28px 0 24px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .page {
+    padding: 16px 0 24px;
+  }
+}

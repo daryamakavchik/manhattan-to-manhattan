@@ -1,0 +1,14 @@
+.header__lang-link {
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.16;
+  text-align: right;
+}
+
+.header__lang-link:hover {
+  opacity: 0.7;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
