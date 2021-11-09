@@ -1,5 +1,5 @@
 .logo {
-  position: absolute;
+  position: relative;
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {

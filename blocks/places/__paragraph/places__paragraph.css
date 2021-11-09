@@ -12,7 +12,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__paragraph {
     width: 456px;
-    height: min-content;
+    min-height: min-content;
     font-size: 16px;
     line-height: 163%;
     padding: 0;
@@ -32,7 +32,6 @@
     line-height: 1.62;
     padding-left: 16px;
     padding-right: 16px;
-    min-height: min-content;
   }
 }
 
@@ -42,6 +41,5 @@
     line-height: 1.62;
     padding-left: 16px;
     padding-right: 16px;
-    min-height: min-content;
   }
 }

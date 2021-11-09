@@ -11,8 +11,8 @@
     grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding-bottom: 92px;
-    width: calc(100%-96px);
-    margin: 0 48px 0;
+    width: calc(100% - 96px);
+    margin: 0 auto;
   }
 }
 

@@ -33,7 +33,7 @@
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .subtitle_place_cover {
     width: 80%;
-    height: min-content;
+    min-height: min-content;
     font-size: 14px;
     line-height: 16px;
     margin: 24px calc((100% - 90%) / 2) 0;
@@ -43,7 +43,7 @@
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .subtitle_place_cover {
     width: 90%;
-    height: 48px;
+    min-height: 48px;
     font-size: 14px;
     line-height: 16px;
     margin: 16px calc((100% - 90%) / 2) 0;

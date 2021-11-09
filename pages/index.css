@@ -62,8 +62,6 @@
 
 @import url(../blocks/subtitle/_place/subtitle_place_cover.css);
 
-@import url(../blocks/cover/__background/cover__background.css);
-
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 
 @import url(../blocks/footer/footer.css);
