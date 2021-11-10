@@ -34,6 +34,7 @@
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .places {
     grid-template-rows: repeat(auto-fit, minmax(984px, 1fr));
+    margin-bottom: 66px;
   }
 
   .places__place {

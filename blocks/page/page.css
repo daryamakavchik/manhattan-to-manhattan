@@ -10,7 +10,6 @@
   padding: 28px 48px 24px;
   position: relative;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
