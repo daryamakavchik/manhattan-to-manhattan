@@ -1,10 +1,10 @@
 .header__lang-link {
   color: #ffffff;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   line-height: 1.17;
   text-align: right;
+  text-decoration: none;
   transition: linear 0.2s;
 }
 

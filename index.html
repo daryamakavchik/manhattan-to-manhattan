@@ -6,8 +6,7 @@
     <title>Путешествие по России</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body>
-    <div class="page">
+  <body class="page">
       <header class="header">
         <img
           class="logo"
@@ -15,29 +14,29 @@
           alt="Векторная карта России"
         />
         <div class="header__lang-links">
-          <div class="header__lang-link header__lang-link_status_active">
-            <a>Ru</a>
-          </div>
-          <div class="header__lang-link">
-            <a>En</a>
-          </div>
+          <button class="header__button_active">
+            <a class="header__lang-link" href="#">Ru</a>
+         </button>
+         <button class="header__button_disabled">
+            <a class="header__lang-link" href="#">En</a>
+        </button>
         </div>
       </header>
       <main>
         <section class="lead">
-          <h1 class="title">Путешествия по России</h1>
+          <h1 class="title">Путешествия по&nbsp;России</h1>
           <p class="subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <img
-            class="lead__image"
-            src="./images/kalegin-michail-179870-unsplash.jpg"
-            alt="Спящая девушка в вагоне поезда"
-          />
-          <p class="lead__caption">ваша полка - верхняя</p>
+          <figure
+            class="lead__figure">
+           <img class="lead__image" src="./images/kalegin-michail-179870-unsplash.jpg"
+            alt="Спящая девушка в вагоне поезда">
+            </figure>
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
         </section>
         <section class="intro">
-          <h2 class="title_place_intro">Чего мы там не видели?</h2>
+          <h2 class="title title_place_intro">Чего мы там не видели?</h2>
           <p class="intro__text">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
             36% планируют провести отпуск в родной стране. Мол, чего мы тут,
@@ -50,12 +49,12 @@
             стране. Мы выбрали и описали некоторые интересные места, достойные
             вашего отпуска.
           </p>
-          <p class="intro__list">
-            Часовых поясов 11 <br />
-            Объектов природного наследия ЮНЕСКО 12 <br />
-            Объектов культурного наследия ЮНЕСКО 16 <br />
-            Природных заповедников 105 <br />
-            Аэропортов 241
+          <ul class="intro__list">
+            <li class="intro__list-item"><span class="intro__list-text">Часовых поясов</span> 11</li>
+            <li class="intro__list-item"><span class="intro__list-text">Объектов природного наследия ЮНЕСКО</span> 12</li>
+            <li class="intro__list-item"><span class="intro__list-text">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+            <li class="intro__list-item"><span class="intro__list-text">Природных заповедников</span> 105</li>
+            <li class="intro__list-item"><span class="intro__list-text">Аэропортов</span> 241</li>
           </p>
         </section>
         <section class="photo-grid">
@@ -122,7 +121,7 @@
         </section>
         <section class="places">
           <div class="places__place">
-            <h2 class="title_place_places">Куршская коса</h2>
+            <h2 class="title title_place_places">Куршская коса</h2>
             <div class="places__website">
               <p class="places__url-heading">URL</p>
               <a class="link" href="http://park-kosa.ru" target="_blank"
@@ -152,7 +151,7 @@
             </div>
           </div>
           <div class="places__place">
-            <h2 class="title_place_places">Кольский</h2>
+            <h2 class="title title_place_places">Кольский</h2>
             <div class="places__website">
               <p class="places__url-heading">URL</p>
               <a
@@ -185,7 +184,7 @@
             </div>
           </div>
           <div class="places__place">
-            <h2 class="title_place_places">Алтай</h2>
+            <h2 class="title title_place_places">Алтай</h2>
             <div class="places__website">
               <p class="places__url-heading">URL</p>
               <a
@@ -247,7 +246,7 @@
             </div>
           </div>
           <div class="places__place">
-            <h2 class="title_place_places">Карелия</h2>
+            <h2 class="title title_place_places">Карелия</h2>
             <div class="places__website">
               <p class="places__url-heading">URL</p>
               <a class="link" href="http://vodlozero.ru" target="_blank"
@@ -275,25 +274,27 @@
           </div>
         </section>
         <section class="cover">
-          <div class="cover__overlay">
-            <h2 class="title title_place_cover">
               <a
-                class="cover__link"
+                class="cover__link cover__overlay"
                 href="https://stampsy.com/na-elektrichkakh-do-baikala"
                 target="_blank"
-                >До Байкала "на собаках"</a
-              >
+                >
+                <div class="cover__text">
+                <h2 class="title title_place_cover">До Байкала «на&nbsp;собаках»
             </h2>
             <p class="subtitle subtitle_place_cover">
               По мотивам учебной темы о Транссибе - путешествие от столицы до
               Байкала на электричках.
             </p>
-          </div>
+            </div>
+          </a>
+         
         </section>
       </main>
       <footer class="footer">
+        <nav class="footer__nav">
         <ul class="footer__links">
-          <li class="link footer__link">
+          <li>
             <a
               class="link footer__link"
               href="https://yandex.ru/maps"
@@ -301,7 +302,7 @@
               >Карты</a
             >
           </li>
-          <li class="link footer__link">
+          <li>
             <a
               class="link footer__link"
               href="https://yandex.ru/pogoda"
@@ -309,7 +310,7 @@
               >Погода</a
             >
           </li>
-          <li class="link footer__link">
+          <li>
             <a
               class="link footer__link"
               href="https://rasp.yandex.ru"
@@ -317,7 +318,7 @@
               >Расписание</a
             >
           </li>
-          <li class="link footer__link">
+          <li>
             <a
               class="link footer__link"
               href="https://calendar.yandex.ru"
@@ -325,7 +326,7 @@
               >Календарь</a
             >
           </li>
-          <li class="link footer__link">
+          <li>
             <a
               class="link footer__link"
               href="https://travel.yandex.ru"
@@ -334,8 +335,8 @@
             >
           </li>
         </ul>
+        </nav>
         <p class="footer__copyright">&copy; 2020. Дарья Макавчик</p>
       </footer>
-    </div>
   </body>
 </html>

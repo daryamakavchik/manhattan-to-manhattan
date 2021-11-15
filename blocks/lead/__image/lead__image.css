@@ -1,13 +1,8 @@
 .lead__image {
-  margin: 0 auto;
-  object-fit: scale-down;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .lead__image {
-    max-width: 928px;
-    object-fit: contain;
-  }
+  margin: 0 0 8px 0;
+  display: block;
+  min-height: 62.5%;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -24,10 +19,10 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .lead__image {
-    width: 100%;
-    object-fit: cover;
     height: 200px;
+    width: auto;
+    object-fit: cover;
   }
 }

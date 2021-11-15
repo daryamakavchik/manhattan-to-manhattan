@@ -1,6 +1,5 @@
 .subtitle_place_cover {
   position: relative;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -8,42 +7,28 @@
   text-align: center;
   color: #ffffff;
   width: 30.5%;
-  margin: 32px auto 0;
+  margin: 0;
   z-index: 3;
+  width: 360px;
+  font-weight: 400;
 }
 
 .subtitle_place_cover:hover {
   cursor: pointer;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .subtitle_place_cover {
-    width: 22.5rem;
-    margin: 32px calc((100% - 360px) / 2) 0;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .subtitle_place_cover {
-    width: 360px;
-    margin: 32px calc((100% - 360px) / 2) 0;
-  }
-}
-
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .subtitle_place_cover {
     width: 80%;
     min-height: min-content;
-    font-size: 14px;
-    line-height: 16px;
-    margin: 24px calc((100% - 90%) / 2) 0;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .subtitle_place_cover {
     width: 90%;
-    min-height: 48px;
     font-size: 14px;
     line-height: 16px;
     margin: 16px calc((100% - 90%) / 2) 0;

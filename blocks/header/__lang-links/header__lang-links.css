@@ -7,13 +7,12 @@
   align-items: flex-end;
   font-size: 24px;
   padding-bottom: 6px;
-  width: calc(1.25em + 0.75em + 1.25em);
+  min-width: calc(1.25em + 0.75em + 1.25em);
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header__lang-links {
     font-size: 18px;
     line-height: 1.11;
-    width: calc(1.25em + 0.75em + 1.25em);
   }
 }

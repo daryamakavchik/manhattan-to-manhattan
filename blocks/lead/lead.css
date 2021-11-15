@@ -1,30 +1,18 @@
 .lead {
-  padding: 56px 100px 114px;
+  padding: 0;
+  margin: 0 auto 96px;
   text-align: center;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .lead {
-    padding: 56px 48px 114px;
-  }
+  max-width: 984px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .lead {
-    width: 100%;
-    padding: 56px 0 110px;
+    max-width: 90.62%;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .lead {
-    width: 100%;
-    padding: 56px 0 110px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  .lead {
-    padding: 48px 0 64px;
+    margin-bottom: 64px;
   }
 }
