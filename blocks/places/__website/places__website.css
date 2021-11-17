@@ -16,8 +16,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .places__website {
+    padding: 0 16px;
     margin: 0;
   }
 }

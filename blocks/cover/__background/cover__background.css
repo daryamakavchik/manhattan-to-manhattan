@@ -1,0 +1,9 @@
+.cover__background {
+  grid-column: 1;
+  grid-row: 1;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-position: center;
+  object-fit: cover;
+  padding-bottom: 62.5%;
+  opacity: 0.3;
+}

@@ -12,9 +12,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .title_place_places {
     width: 440px;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
     margin-right: 32px;
   }
 }
@@ -22,8 +19,6 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .title_place_places {
     width: 48%;
-    font-size: 72px;
-    line-height: 76px;
     margin-right: 0;
     min-height: min-content;
   }
@@ -34,16 +29,15 @@
     max-width: 90%;
     min-height: 35px;
     font-size: 42px;
-    line-height: 46px;
+    line-height: 1.09;
     margin: 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .title_place_places {
-    width: 90%;
     font-size: 32px;
     line-height: 1.09;
-    margin: 0;
+    padding: 0 16px;
   }
 }

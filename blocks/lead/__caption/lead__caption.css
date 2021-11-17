@@ -1,6 +1,5 @@
 .lead__caption {
   text-align: left;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -12,7 +11,7 @@
   min-width: 158px;
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 1023px) {
   .lead__caption {
     padding-left: 24px;
   }

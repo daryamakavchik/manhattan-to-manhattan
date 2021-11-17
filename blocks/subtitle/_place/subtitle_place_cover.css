@@ -6,10 +6,9 @@
   line-height: 1.22;
   text-align: center;
   color: #ffffff;
-  width: 30.5%;
-  margin: 0;
+  max-width: 360px;
+  margin: 0 auto;
   z-index: 3;
-  width: 360px;
   font-weight: 400;
 }
 
@@ -21,8 +20,6 @@
   .subtitle_place_cover {
     width: 80%;
     min-height: min-content;
-    font-size: 18px;
-    line-height: 22px;
   }
 }
 

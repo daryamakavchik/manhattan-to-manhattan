@@ -6,8 +6,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__image {
     display: block;
-    max-width: 460px;
-    max-height: 460px;
     margin: 0;
   }
 }
@@ -30,7 +28,7 @@
 
 @media screen and (max-width: 425px) {
   .places__image {
-    max-width: calc(100% - 32px);
+    width: 100%;
     object-fit: cover;
     margin: 0;
     padding: 0;

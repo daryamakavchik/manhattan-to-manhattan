@@ -28,8 +28,8 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .title_place_cover {
     width: 84.3%;
-    font-size: 72px;
     min-height: auto;
+    min-width: 560px;
   }
 }
 
