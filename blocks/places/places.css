@@ -35,7 +35,7 @@
 @media screen and (max-width: 425px) {
   .places {
     margin: 0 auto 66px auto;
-    gap: 32px;
+    gap: 50px;
     padding: 0;
     width: 100%;
     box-sizing: border-box;

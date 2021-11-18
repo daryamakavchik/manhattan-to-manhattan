@@ -2,12 +2,11 @@
   margin: 0 auto 8px;
   display: block;
   min-height: 62.5%;
-  max-width: 100%;
+  width: 100%;
 }
 
-@media screen and (min-width: 425px) and (max-width: 1024px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   .lead__image {
-    width: 100%;
     object-fit: cover;
   }
 }
@@ -15,7 +14,6 @@
 @media screen and (max-width: 425px) {
   .lead__image {
     height: 200px;
-    width: 100%;
     object-fit: cover;
   }
 }
