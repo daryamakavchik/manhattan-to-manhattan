@@ -13,20 +13,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .footer {
-    min-width: 720px;
-    max-width: calc(100% - 6.25%);
-  }
-}
-
-@media screen and (min-width: 424px) and (max-width: 767px) {
-  .footer {
-    padding: 0 24px;
-  }
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
     min-height: 334px;
