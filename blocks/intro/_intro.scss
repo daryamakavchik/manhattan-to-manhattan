@@ -1,0 +1,53 @@
+.intro {
+  margin: 0 auto;
+  padding-bottom: 92px;
+  max-width: 984px;
+  @include responsive(tablet) {
+    margin: 0;
+    padding: 0 48px 88px;
+  }
+  @include responsive(smalltablet) {
+    padding: 0;
+    margin: 0 auto 88px 24px;
+  }
+  @include responsive(phone) {
+    max-width: 320px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 16px 64px;
+  }
+  &__list {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    @include responsive(phone) {
+      min-width: 288px;
+    }
+  }
+  &__list-item {
+    font-size: 12px;
+    font-weight: $fontnormal;
+    color: $textcolor;
+    line-height: 18px;
+  }
+  &__list-text {
+    font-weight: $fontmedium;
+  }
+  &__text {
+    font-weight: $fontnormal;
+    font-size: 16px;
+    line-height: 1.63;
+    color: $textcolor;
+    margin-top: 2.5em;
+    margin-bottom: 2.06em;
+    width: 70%;
+    @include responsive(tablet) {
+      max-width: 93.75%;
+    }
+    @include responsive(phone) {
+      padding: 0;
+      width: 90%;
+    }
+  }
+}

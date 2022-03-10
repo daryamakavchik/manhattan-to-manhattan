@@ -1,0 +1,146 @@
+.places {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(660px, 1fr));
+  gap: 80px;
+  padding-left: 148px;
+  margin: 0 0 92px 0;
+  max-width: 984px;
+  @include responsive(laptop){
+    padding: 0;
+    margin: 0 auto 92px;
+    grid-template-rows: repeat(auto-fit, minmax(564px, 640px));
+  }
+  @include responsive(tablet) {
+    grid-template-rows: repeat(auto-fit, minmax(434px, 1fr));
+    gap: 72px;
+    margin: 0 auto 90px;
+    padding: 0 48px;
+  }
+  @include responsive(smalltablet) {
+    max-width: calc(100% - 48px);
+    margin: 0;
+    padding: 0 24px;
+  }
+  @include responsive(phone) {
+      margin: 0 auto 66px auto;
+      gap: 50px;
+      padding: 0;
+      width: 100%;
+      box-sizing: border-box;
+  }
+&__place {
+  margin: 0;
+  display: grid;
+  grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
+  grid-gap: 40px 40px;
+  @include responsive(laptop) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 48px 32px;
+    padding: 0;
+  }
+  @include responsive(tablet) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 48px 32px;
+  }
+  @include responsive(smalltablet) {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 48px 28px;
+    margin: 0 auto;
+  }
+  @include responsive(phone) {
+    grid-template-columns: 1fr;
+    grid-gap: 32px 0;
+  }
+}
+  &__image {
+      max-width: 460px;
+      max-height: 460px;
+    @include responsive(laptop) {
+        display: block;
+        margin: 0;
+      }
+    @include responsive(tablet) {
+        max-width: 440px;
+      }
+    @include responsive(smalltablet) {
+      object-fit: contain;
+      max-width: 340px;
+      width: 100%;
+      max-height: 340px;
+      margin: 0;
+    }
+    @include responsive(phone) {
+      width: 100%;
+      object-fit: contain;
+      margin: 0;
+      padding: 0;
+    }  
+  }
+    &__paragraphs {
+      display: flex;
+      flex-direction: column;
+      @include responsive(tablet) {
+        margin-top: 0;
+        padding-right: 0;
+        min-height: min-content;
+      }
+      @include responsive(smalltablet) {
+        margin-top: 0;
+      }
+      @include responsive(phone) {
+        padding: 0 16px;
+      }
+    }
+  &__paragraph {
+      font-weight: $fontnormal;
+      font-size: 18px;
+      line-height: 163%;
+      color: $textcolor;
+      padding: 0;
+      margin: 0 0 26px 0;
+      @include responsive(laptop) {
+        width: 456px;
+        min-height: min-content;
+      }
+      @include responsive(tablet) {
+        margin-bottom: 25px;
+        font-size: 16px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+      @include responsive(phone) {
+        font-size: 16px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+    &__url-heading {
+      font-weight: $fontnormal;
+      font-size: 12px;
+      line-height: 1;
+      letter-spacing: 2px;
+      color: $textsecondarycolor;
+      margin: 0 0 12px 0;
+      padding: 0;
+      @include responsive(smalltablet) {
+        width: 90%;
+      }
+    }
+    &__website {
+      align-self: end;
+      @include responsive(laptop) {
+        margin-bottom: 0;
+        margin-left: 0;
+        width: 300px;
+      }
+      @include responsive(tablet) {
+        padding-top: 10px;
+      }
+      @include responsive(phone) {
+        padding: 0 16px;
+        margin: 0;
+      }
+    }
+  }

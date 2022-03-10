@@ -1,0 +1,53 @@
+.subtitle {
+  font-weight: $fontnormal;
+  font-size: 30px;
+  line-height: 1.2;
+  color: $textcolor;
+  text-align: center;
+  margin: 0 auto 64px;
+  max-width: 640px;
+  @include responsive(laptop) {
+    margin-bottom: 56px;
+    margin: 0 calc((100% - 640px) / 2) 56px;
+  }
+  @include responsive(tablet) {
+    font-size: 3.8vw;
+    max-width: 80%;
+  }
+  @include responsive(smalltablet) {
+    font-size: 3.8vw;
+    max-width: 80%;
+  }
+  @include responsive(phone) {
+    max-width: 80%;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: 16px;
+    margin-bottom: 40px;
+  }
+  &_place_cover {
+    position: relative;
+    font-weight: $fontnormal;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    color: $textcolor;
+    max-width: 360px;
+    margin: 0 auto;
+    z-index: 3;
+    font-weight: $fontnormal;
+    &:hover {
+      cursor: pointer;
+    }
+    @include responsive(smalltablet) {
+      width: 80%;
+      min-height: min-content;
+    }
+    @include responsive(phone) {
+      width: 90%;
+      font-size: 14px;
+      line-height: 16px;
+      margin: 16px calc((100% - 90%) / 2) 0;
+    }
+  }
+}

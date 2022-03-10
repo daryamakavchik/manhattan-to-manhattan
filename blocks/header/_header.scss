@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  margin: 28px auto 64px;
+  max-width: calc(100% - 96px);
+  @include responsive(tablet){
+    margin: 28px 24px 48px 24px;
+    max-width: calc(100% - 48px);
+  }
+  @include responsive(smalltablet) {
+    margin: 28px 24px 48px 24px;
+    max-width: calc(100% - 48px);
+  }
+  @include responsive(phone) {
+    min-height: 42px;
+    padding: 0;
+    margin: 16px auto 48px;
+    max-width: calc(100% - 32px);
+  }
+  &__lang-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+    font-size: 24px;
+    padding-bottom: 6px;
+    min-width: calc(1.25em + 0.75em + 1.25em);
+    @include responsive(tablet) {
+      padding-bottom: 10px;
+      font-size: 18px;
+      line-height: 1.11;
+    }
+    @include responsive(smalltablet) {
+      padding-bottom: 10px;
+      font-size: 18px;
+      line-height: 1.11;
+    }
+    @include responsive(phone) {
+      padding-bottom: 8px;
+      font-size: 18px;
+      line-height: 1.11;
+    }
+  }
+  &__lang-link {
+    color: $textcolor;
+    font-weight: $fontnormal;
+    line-height: 1.17;
+    text-align: right;
+    text-decoration: none;
+    transition: linear 0.2s;
+    &:hover {
+      opacity: 0.7;
+      cursor: pointer;
+    }
+      &_active {
+        text-decoration: underline;
+      }
+  }
+}

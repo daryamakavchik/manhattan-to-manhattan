@@ -1,0 +1,8 @@
+.logo {
+  width: 176px;
+  height: 52px;
+  @include responsive(phone) {
+    width: 142px;
+    height: 42px;
+  }
+}

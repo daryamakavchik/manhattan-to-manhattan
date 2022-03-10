@@ -1,0 +1,88 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  max-width: 1184px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 0 92px 0;
+  text-align: center;
+  justify-content: center;
+  min-height: 740px;
+  @include responsive(laptop) {
+    width: 100%;
+    min-height: 640px;
+  }
+  @include responsive(tablet) {
+    max-width: 100%;
+    padding-bottom: 88px;
+    min-height: 480px;
+  }
+  @include responsive(smalltablet) {
+    width: 100%;
+    padding-bottom: 88px;
+    object-fit: cover;
+    margin-top: 90px;
+    min-height: 480px;
+  }
+  @include responsive(phone) {
+    min-width: 320px;
+    padding-bottom: 64px;
+    min-height: 200px;
+  }
+  &__background {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(../images/cover-trains.jpg);
+    background-position: center;
+    object-fit: cover;
+    padding-bottom: 62.5%;
+    opacity: 0.3;
+  }
+  &__overlay {
+    background-image: url(../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: $background;
+      opacity: 0.3;
+      transition: 0.3s ease-in;
+    }
+    &:hover::before {
+      width: 100%;
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+  &__link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 740px;
+    text-decoration: none;
+    text-align: center;
+    @include responsive(laptop) {
+      min-height: 640px;
+    }
+    @include responsive(tablet) {
+      min-height: 480px;
+    }
+    @include responsive(smalltablet) {
+      min-height: 480px;
+    }
+    @include responsive(phone) {
+      min-height: 200px;
+    }
+  }
+}

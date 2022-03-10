@@ -1,0 +1,14 @@
+.link {
+  font-weight: $fontnormal;
+  font-size: 18px;
+  line-height: 1.2;
+  color: $textcolor;
+  text-decoration: underline;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  @include responsive(smalltablet) {
+    width: 90%;
+  }
+}
