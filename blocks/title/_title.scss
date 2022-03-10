@@ -1,81 +1,79 @@
 .title {
+  margin: 0 auto 24px;
+  max-width: 720px;
+  text-align: center;
   font-weight: $fontbold;
   font-size: 96px;
   line-height: 1.04;
   color: $textcolor;
-  text-align: center;
-  margin: 0 auto 24px;
-  max-width: 720px;
   @include responsive(smalltablet) {
-    font-size: 10vw;
     max-width: 100%;
+    font-size: 10vw;
   }
   @include responsive(phone) {
-    width: 90%;
     margin: 0 auto 16px;
+    width: 90%;
     font-size: 40px;
-    line-height: 44px;
+    line-height: 1.11;
   }
   &_place_places {
+    margin: 8px 0 0 0;
+    max-width: 460px;
+    text-align: left;
     font-weight: $fontbold;
     font-size: 72px;
     line-height: 1.05;
     color: $textcolor;
-    text-align: left;
-    margin: 8px 0 0 0;
-    max-width: 460px;
     @include responsive(laptop) {
-      width: 440px;
       margin-right: 32px;
+      width: 440px;
     }
     @include responsive(tablet) {
-      width: 48%;
       margin-right: 0;
+      width: 48%;
       min-height: min-content;
     }
     @include responsive(smalltablet) {
       max-width: 90%;
       min-height: 35px;
+      margin: 0;
       font-size: 42px;
       line-height: 1.09;
-      margin: 0;
     }
     @include responsive(phone) {
+      padding: 0 16px;
       font-size: 32px;
       line-height: 1.09;
-      padding: 0 16px;
     }
   }
   &_place_intro {
+    margin: 0;
+    width: 70%;
+    text-align: left;
     font-weight: $fontbold;
     font-size: 54px;
     line-height: 1.07;
     color: $textcolor;
-    text-align: left;
-    margin: 0;
-    width: 70%;
     @include responsive(tablet) {
       width: 93.75%;
     }
     @include responsive(phone) {
-    width: 90%;
-    font-size: 32px;
-    line-height: 1.09;
+      width: 90%;
+      font-size: 32px;
+      line-height: 1.09;
     }
   }
   &_place_cover {
     position: relative;
-    font-size: 72px;
-    line-height: 1.05;
-    z-index: 3;
-    margin: 0;
-    max-width: 560px;
-    text-align: center;
     grid-column: 1;
     grid-row: 1;
     justify-self: center;
+    z-index: 3;
+    max-width: 560px;
     margin: 0 0 32px;
     text-align: center;
+    font-size: 72px;
+    line-height: 1.05;
     &:hover {
       cursor: pointer;
     }
@@ -85,19 +83,19 @@
       text-align: center;
     }
     @include responsive(tablet) {
-    width: 84.3%;
-    min-height: auto;
-    min-width: 560px;
+      min-height: auto;
+      min-width: 560px;
+      width: 84.3%;
     }
     @include responsive(smalltablet) {
       font-size: 52px;
     }
     @include responsive(phone) {
       width: 90%;
-      font-size: 32px;
-      line-height: 1.09;
       margin: 0;
       text-align: center;
+      font-size: 32px;
+      line-height: 1.09;
     }
   }
 }

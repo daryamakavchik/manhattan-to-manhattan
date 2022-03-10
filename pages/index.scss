@@ -4,6 +4,10 @@
 
 @import "../mixins/_responsive.scss";
 
+@import "../variables/color";
+
+@import "../variables/fontweight";
+
 @import "../blocks/page/_page.scss";
 
 @import "../blocks/header/_header.scss";
@@ -27,5 +31,3 @@
 @import "../blocks/cover/_cover.scss";
 
 @import "../blocks/footer/_footer.scss";
-
-@import "../variables/color";

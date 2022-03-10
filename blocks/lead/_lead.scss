@@ -1,21 +1,21 @@
 .lead {
-  padding: 0;
   margin: 0 auto 96px;
-  text-align: center;
+  padding: 0;
   max-width: 984px;
+  text-align: center;
   @include responsive(phone) {
     margin-bottom: 64px;
   }
   &__caption {
+    margin: 0;
+    min-width: 158px;
     text-align: left;
     font-weight: $fontnormal;
     font-size: 10px;
     line-height: 1.4;
-    color: $textcolor;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin: 0;
-    min-width: 158px;
+    color: $textcolor;
     @include responsive(tablet) {
       padding-left: 24px;
       width: 93.75%;
@@ -32,16 +32,16 @@
     margin: 0;
   }
   &__image {
-    margin: 0 auto 8px;
     display: block;
+    margin: 0 auto 8px;
     min-height: 62.5%;
     width: 100%;
-  @include responsive(smalltablet) {
-    object-fit: cover;
+    @include responsive(smalltablet) {
+      object-fit: cover;
+    }
+    @include responsive(phone) {
+      height: 200px;
+      object-fit: cover;
+    }
   }
-  @include responsive(phone) {
-    height: 200px;
-    object-fit: cover;
-  }
-}
 }

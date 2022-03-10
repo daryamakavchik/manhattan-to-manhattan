@@ -10,62 +10,60 @@
   }
   @include responsive(smalltablet) {
     flex-direction: column;
-    min-height: 334px;
-    max-width: 320px;
     margin: 0;
     padding: 0;
+    min-height: 334px;
+    max-width: 320px;
     box-sizing: border-box;
   }
   @include responsive(phone) {
     flex-direction: column;
-    min-height: 334px;
-    max-width: 320px;
     margin: 0;
     padding: 0;
+    min-height: 334px;
+    max-width: 320px;
     box-sizing: border-box;
   }
   &__links {
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-content: center;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
     border: none;
-    align-content: center;
     @include responsive(smalltablet) {
-      box-sizing: border-box;
       display: grid;
       grid-template-rows: repeat(5, 24px);
       gap: 32px;
       padding: 0;
-      margin: 0;
-      color: $textcolor;
+      margin: 0 0 32px 0;
+      max-width: calc(100% - 32px);
+      box-sizing: border-box;
       list-style-type: none;
       font-size: 24px;
-      max-width: calc(100% - 32px);
-      margin-bottom: 32px;
+      color: $textcolor;
     }
     @include responsive(phone) {
-      box-sizing: border-box;
       display: grid;
       grid-template-rows: repeat(5, 24px);
       gap: 32px;
       padding: 0;
-      margin: 0;
-      color: $textcolor;
+      margin: 0 0 32px 0;
+      max-width: calc(100% - 32px);
+      box-sizing: border-box;
       list-style-type: none;
       font-size: 24px;
-      max-width: calc(100% - 32px);
-      margin-bottom: 32px;
+      color: $textcolor;
     }
   }
   &__link {
+    margin-right: 18px;
     font-weight: $fontnormal;
     font-size: 16px;
     line-height: 1.12;
     text-decoration: none;
-    margin-right: 18px;
     @include responsive(smalltablet) {
       font-size: 24px;
       line-height: 1;
@@ -93,21 +91,21 @@
   &__copyright {
     margin: 0;
     padding: 0;
+    max-width: 11.62rem;
     font-weight: $fontnormal;
     font-size: 14px;
     line-height: 1.14;
     text-align: right;
     color: $textcolor;
-    max-width: 11.62rem;
-  @include responsive(tablet) {
-    margin-bottom: 24px;
+    @include responsive(tablet) {
+      margin-bottom: 24px;
+    }
+    @include responsive(smalltablet) {
+      margin-bottom: 24px;
+    }
+    @include responsive(phone) {
+      margin-bottom: 24px;
+      max-width: 186px;
+    }
   }
-  @include responsive(smalltablet) {
-    margin-bottom: 24px;
-  }
-  @include responsive(phone) {
-    margin-bottom: 24px;
-    max-width: 186px;
-  }
-}
 }
