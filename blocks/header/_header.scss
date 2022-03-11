@@ -28,20 +28,20 @@
     padding: 0 0 6px 0;
     align-items: flex-end;
     min-width: calc(1.25em + 0.75em + 1.25em);
-    font-size: 24px;
+    font-size: $large;
     @include responsive(tablet) {
       padding-bottom: 10px;
-      font-size: 18px;
+      font-size: $medium;
       line-height: 1.11;
     }
     @include responsive(smalltablet) {
       padding-bottom: 10px;
-      font-size: 18px;
+      font-size: $medium;
       line-height: 1.11;
     }
     @include responsive(phone) {
       padding-bottom: 8px;
-      font-size: 18px;
+      font-size: $medium;
       line-height: 1.11;
     }
   }

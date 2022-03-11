@@ -184,7 +184,7 @@
 @media (min-width: 425px) and (max-width: 768px) {
   .title {
     max-width: 100%;
-    font-size: 10vw;
+    font-size: 54px;
   }
 }
 @media screen and (max-width: 425px) {
@@ -319,13 +319,12 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .subtitle {
     max-width: 80%;
-    font-size: 3.8vw;
   }
 }
 @media (min-width: 425px) and (max-width: 768px) {
   .subtitle {
+    font-size: 24px;
     max-width: 80%;
-    font-size: 3.8vw;
   }
 }
 @media screen and (max-width: 425px) {

@@ -42,7 +42,7 @@
       max-width: calc(100% - 32px);
       box-sizing: border-box;
       list-style-type: none;
-      font-size: 24px;
+      font-size: $large;
       color: $textcolor;
     }
     @include responsive(phone) {
@@ -54,22 +54,22 @@
       max-width: calc(100% - 32px);
       box-sizing: border-box;
       list-style-type: none;
-      font-size: 24px;
+      font-size: $large;
       color: $textcolor;
     }
   }
   &__link {
     margin-right: 18px;
     font-weight: $fontnormal;
-    font-size: 16px;
+    font-size: $normal;
     line-height: 1.12;
     text-decoration: none;
     @include responsive(smalltablet) {
-      font-size: 24px;
+      font-size: $large;
       line-height: 1;
     }
     @include responsive(phone) {
-      font-size: 24px;
+      font-size: $large;
       line-height: 1;
     }
     &:hover {
@@ -93,7 +93,7 @@
     padding: 0;
     max-width: 11.62rem;
     font-weight: $fontnormal;
-    font-size: 14px;
+    font-size: $small;
     line-height: 1.14;
     text-align: right;
     color: $textcolor;

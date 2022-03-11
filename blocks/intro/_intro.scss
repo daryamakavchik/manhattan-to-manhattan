@@ -26,7 +26,7 @@
     }
   }
   &__list-item {
-    font-size: 12px;
+    font-size: $x-small;
     line-height: 1.5;
     font-weight: $fontnormal;
     color: $textcolor;
@@ -38,7 +38,7 @@
     margin-top: 2.5em;
     margin-bottom: 2.06em;
     width: 70%;
-    font-size: 16px;
+    font-size: $normal;
     line-height: 1.63;
     color: $textcolor;
     font-weight: $fontnormal;

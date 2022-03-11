@@ -2,7 +2,7 @@
   margin: 0 auto 64px;
   max-width: 640px;
   font-weight: $fontnormal;
-  font-size: 30px;
+  font-size: $x-large;
   line-height: 1.2;
   color: $textcolor;
   text-align: center;
@@ -11,17 +11,16 @@
   }
   @include responsive(tablet) {
     max-width: 80%;
-    font-size: 3.8vw;
   }
   @include responsive(smalltablet) {
+    font-size: $large;
     max-width: 80%;
-    font-size: 3.8vw;
   }
   @include responsive(phone) {
     margin-top: 16px;
     margin-bottom: 40px;
     max-width: 80%;
-    font-size: 16px;
+    font-size: $normal;
     line-height: 1.25;
   }
   &_place_cover {
@@ -30,7 +29,7 @@
     max-width: 360px;
     margin: 0 auto;
     font-weight: $fontnormal;
-    font-size: 18px;
+    font-size: $medium;
     line-height: 1.22;
     text-align: center;
     font-weight: $fontnormal;
@@ -45,7 +44,7 @@
     @include responsive(phone) {
       margin: 16px calc((100% - 90%) / 2) 0;
       width: 90%;
-      font-size: 14px;
+      font-size: $small;
       line-height: 16px;
     }
   }

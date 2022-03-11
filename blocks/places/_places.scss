@@ -95,7 +95,7 @@
     margin: 0 0 26px 0;
     padding: 0;
     font-weight: $fontnormal;
-    font-size: 18px;
+    font-size: $medium;
     line-height: 163%;
     color: $textcolor;
     @include responsive(laptop) {
@@ -104,13 +104,13 @@
     }
     @include responsive(tablet) {
       margin-bottom: 25px;
-      font-size: 16px;
+      font-size: $normal;
       &:last-child {
         margin-bottom: 0;
       }
     }
     @include responsive(phone) {
-      font-size: 16px;
+      font-size: $normal;
       &:last-child {
         margin-bottom: 0;
       }
@@ -120,7 +120,7 @@
     margin: 0 0 12px 0;
     padding: 0;
     font-weight: $fontnormal;
-    font-size: 12px;
+    font-size: $x-small;
     line-height: 1;
     letter-spacing: 2px;
     color: $textsecondarycolor;
