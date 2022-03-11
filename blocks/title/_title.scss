@@ -2,9 +2,9 @@
   margin: 0 auto 24px;
   max-width: 720px;
   text-align: center;
+  line-height: 1.04;
   font-weight: $fontbold;
   font-size: $title-x-large;
-  line-height: 1.04;
   color: $textcolor;
   @include responsive(smalltablet) {
     max-width: 100%;
@@ -13,16 +13,16 @@
   @include responsive(phone) {
     margin: 0 auto 16px;
     width: 90%;
-    font-size: $title-x-small;
     line-height: 1.11;
+    font-size: $title-x-small;
   }
   &_place_places {
     margin: 8px 0 0 0;
     max-width: 460px;
     text-align: left;
+    line-height: 1.05;
     font-weight: $fontbold;
     font-size: $title-large;
-    line-height: 1.05;
     color: $textcolor;
     @include responsive(laptop) {
       margin-right: 32px;
@@ -37,30 +37,30 @@
       max-width: 90%;
       min-height: 35px;
       margin: 0;
-      font-size: $title-small;
       line-height: 1.09;
+      font-size: $title-small;
     }
     @include responsive(phone) {
       padding: 0 16px;
-      font-size: $title-xx-small;
       line-height: 1.09;
+      font-size: $title-xx-small;
     }
   }
   &_place_intro {
     margin: 0;
     width: 70%;
     text-align: left;
+    line-height: 1.07;
     font-weight: $fontbold;
     font-size: $title-medium;
-    line-height: 1.07;
     color: $textcolor;
     @include responsive(tablet) {
       width: 93.75%;
     }
     @include responsive(phone) {
       width: 90%;
-      font-size: $title-xx-small;
       line-height: 1.09;
+      font-size: $title-xx-small;
     }
   }
   &_place_cover {
@@ -72,8 +72,8 @@
     max-width: 560px;
     margin: 0 0 32px;
     text-align: center;
-    font-size: $title-large;
     line-height: 1.05;
+    font-size: $title-large;
     &:hover {
       cursor: pointer;
     }
@@ -94,8 +94,8 @@
       width: 90%;
       margin: 0;
       text-align: center;
-      font-size: $title-xx-small;
       line-height: 1.09;
+      font-size: $title-xx-small;
     }
   }
 }

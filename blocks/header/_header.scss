@@ -31,18 +31,18 @@
     font-size: $large;
     @include responsive(tablet) {
       padding-bottom: 10px;
-      font-size: $medium;
       line-height: 1.11;
+      font-size: $medium;
     }
     @include responsive(smalltablet) {
       padding-bottom: 10px;
-      font-size: $medium;
       line-height: 1.11;
+      font-size: $medium;
     }
     @include responsive(phone) {
       padding-bottom: 8px;
-      font-size: $medium;
       line-height: 1.11;
+      font-size: $medium;
     }
   }
   &__lang-link {

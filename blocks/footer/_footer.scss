@@ -60,17 +60,17 @@
   }
   &__link {
     margin-right: 18px;
-    font-weight: $fontnormal;
-    font-size: $normal;
     line-height: 1.12;
     text-decoration: none;
+    font-weight: $fontnormal;
+    font-size: $normal;
     @include responsive(smalltablet) {
-      font-size: $large;
       line-height: 1;
+      font-size: $large;
     }
     @include responsive(phone) {
-      font-size: $large;
       line-height: 1;
+      font-size: $large;
     }
     &:hover {
       cursor: pointer;
@@ -92,10 +92,10 @@
     margin: 0;
     padding: 0;
     max-width: 11.62rem;
-    font-weight: $fontnormal;
-    font-size: $small;
     line-height: 1.14;
     text-align: right;
+    font-weight: $fontnormal;
+    font-size: $small;
     color: $textcolor;
     @include responsive(tablet) {
       margin-bottom: 24px;

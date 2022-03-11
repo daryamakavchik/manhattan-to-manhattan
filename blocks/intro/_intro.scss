@@ -26,8 +26,8 @@
     }
   }
   &__list-item {
-    font-size: $x-small;
     line-height: 1.5;
+    font-size: $x-small;
     font-weight: $fontnormal;
     color: $textcolor;
   }
@@ -38,8 +38,8 @@
     margin-top: 2.5em;
     margin-bottom: 2.06em;
     width: 70%;
-    font-size: $normal;
     line-height: 1.63;
+    font-size: $normal;
     color: $textcolor;
     font-weight: $fontnormal;
     @include responsive(tablet) {

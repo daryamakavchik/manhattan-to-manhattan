@@ -1,8 +1,8 @@
 .link {
-  font-weight: $fontnormal;
-  font-size: $medium;
   line-height: 1.2;
   text-decoration: underline;
+  font-weight: $fontnormal;
+  font-size: $medium;
   color: $textcolor;
   &:hover {
     cursor: pointer;

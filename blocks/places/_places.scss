@@ -96,7 +96,7 @@
     padding: 0;
     font-weight: $fontnormal;
     font-size: $medium;
-    line-height: 163%;
+    line-height: 1.63;
     color: $textcolor;
     @include responsive(laptop) {
       width: 456px;
@@ -119,10 +119,10 @@
   &__url-heading {
     margin: 0 0 12px 0;
     padding: 0;
-    font-weight: $fontnormal;
-    font-size: $x-small;
     line-height: 1;
     letter-spacing: 2px;
+    font-weight: $fontnormal;
+    font-size: $x-small;
     color: $textsecondarycolor;
     @include responsive(smalltablet) {
       width: 90%;

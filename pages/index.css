@@ -161,14 +161,14 @@
 @media (min-width: 425px) and (max-width: 768px) {
   .lead__image {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 @media screen and (max-width: 425px) {
   .lead__image {
     height: 200px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 
@@ -364,7 +364,7 @@
     margin: 16px 5% 0;
     width: 90%;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
   }
 }
 .subtitle__span {
@@ -457,7 +457,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 16px;
-    padding: 0 24px 0 24px;
+    padding: 0 24px 0;
   }
 }
 @media screen and (max-width: 425px) {
@@ -471,35 +471,34 @@
 }
 .photo-grid__item {
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
 }
 @media (min-width: 1024px) and (max-width: 1280px) {
   .photo-grid__item {
     width: 100%;
     -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .photo-grid__item {
     width: 100%;
     -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
 }
 @media (min-width: 425px) and (max-width: 768px) {
   .photo-grid__item {
     width: 100%;
     -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
 }
 @media screen and (max-width: 425px) {
   .photo-grid__item {
-    display: block;
     width: 100%;
     -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
 }
 
@@ -592,7 +591,7 @@
 @media (min-width: 425px) and (max-width: 768px) {
   .places__image {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     max-width: 340px;
     width: 100%;
     max-height: 340px;
@@ -602,7 +601,7 @@
 @media screen and (max-width: 425px) {
   .places__image {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -636,7 +635,7 @@
   padding: 0;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.63;
   color: #ffffff;
 }
 @media (min-width: 1024px) and (max-width: 1280px) {
@@ -747,7 +746,7 @@
     margin-top: 90px;
     padding-bottom: 88px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     min-height: 480px;
   }
 }
@@ -762,7 +761,7 @@
   grid-column: 1;
   grid-row: 1;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   padding-bottom: 62.5%;
   background-image: url(../images/cover-trains.jpg);
   background-position: center;
@@ -958,4 +957,4 @@
     margin-bottom: 24px;
     max-width: 186px;
   }
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
