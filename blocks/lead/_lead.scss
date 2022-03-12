@@ -30,9 +30,11 @@
   }
   &__figure {
     margin: 0;
+    position: relative;
   }
   &__image {
     display: block;
+    position: relative;
     margin: 0 auto 8px;
     min-height: 62.5%;
     width: 100%;
@@ -43,5 +45,11 @@
       height: 200px;
       object-fit: cover;
     }
+  }
+  &__svg{
+    position: absolute;
+    top: 14.66%;
+    left: 2.36%;
+    width: 95.2%;
   }
 }
