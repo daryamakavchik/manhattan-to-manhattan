@@ -772,7 +772,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   padding-bottom: 62.5%;
-  background-image: url(../images/cover-trains.jpg);
+  background-image: url(../images/__background-cover.jpg);
   background-position: center;
   opacity: 0.3;
 }
@@ -780,7 +780,7 @@
   height: 100%;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/cover-trains.jpg);
+  background-image: url(../images/__background-cover.jpg);
   background-size: cover;
   background-position: center;
 }
