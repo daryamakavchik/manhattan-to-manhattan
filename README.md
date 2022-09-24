@@ -3,6 +3,8 @@
 
 Адаптивный одностраничный сайт с информацией о памятных природных местах России.
 
+<img width="413" alt="preview" src="https://user-images.githubusercontent.com/90967822/192077041-d9334a21-998d-4f2f-a21b-406d205cba8a.png">
+
 ## Стек
 * HTML
 * CSS
