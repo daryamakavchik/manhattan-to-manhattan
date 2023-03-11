@@ -1,22 +1,26 @@
-# Проект: Путешествия по России
----
+# "From Manhattan to Manhattan"
 
-Адаптивный одностраничный сайт с информацией о памятных природных местах России.
+* Description in other languages:* [RU]() 
 
-## Стек
-* HTML
-* CSS
-* JavaScript
+#### [GitHub Pages Link](https://daryamakavchik.github.io/manhattan-to-manhattan/)
+#### [Figma link](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A634)
 
-## Реализация
-* Flexbox
-* Grid Layout
-* Медиа-запросы
-* Файловая структура по правилам БЭМ Nested
+## Description
+"From Manhattan to Manhattan" is a portfolio project created as an assignment for [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program"). It is a responsive single-page website with a guide to cross-country travel.
 
-## Планы по доработке
-* Реализовать анимацию SVG изображения в секции header
-* Создать и подключить англоязычную версию страницы
+## Technologies
+HTML5 | CSS3 | BEM Methodology, File Structure and File Paths (Nested BEM) | Adaptive design | Flexbox and Grid Layout
 
-#### [Ссылка на сайт](https://daryamakavchik.github.io/russian-travel/)
-#### [Ссылка на макет](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A634)
+## Installation
+
+```bash
+# Clone the repository
+git clone https://daryamakavchik.github.io/manhattan-to-manhattan/
+# Enter the project directory
+cd from-manhattan-to-manhattan
+# Checkout to the US adapted version
+git checkout lang-eng
+```
+
+## To Do
+- [ ] Page language change feature
