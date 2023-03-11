@@ -18,8 +18,6 @@ HTML5 | CSS3 | BEM Methodology, File Structure and File Paths (Nested BEM) | Ada
 git clone https://daryamakavchik.github.io/manhattan-to-manhattan/
 # Enter the project directory
 cd from-manhattan-to-manhattan
-# Checkout to the US adapted version
-git checkout lang-eng
 ```
 
 ## To Do
