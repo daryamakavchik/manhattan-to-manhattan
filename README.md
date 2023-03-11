@@ -1,6 +1,6 @@
 # "From Manhattan to Manhattan"
 
-* Description in other languages:* [RU]() 
+* Description in other languages: [RU]() 
 
 #### [GitHub Pages Link](https://daryamakavchik.github.io/manhattan-to-manhattan/)
 #### [Figma link](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A634)
