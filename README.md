@@ -7,7 +7,7 @@
 "From Manhattan to Manhattan" is a portfolio project created as an assignment for [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program"). It is a responsive single-page website with a guide to cross-country travel.
 
 ## Tech stack
-HTML5 | CSS3 | BEM Methodology, File Structure and File Paths (Nested BEM) | Adaptive design | Flexbox and Grid Layout
+HTML5 | CSS3 | SCSS | BEM Methodology, File Structure and File Paths (Nested BEM) | Adaptive design | Flexbox and Grid Layout
 
 ## Installation
 
