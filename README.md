@@ -1,6 +1,6 @@
-# "From Manhattan to Manhattan"
+# "Russian Travel"
 
-#### [GitHub Pages Link](https://daryamakavchik.github.io/manhattan-to-manhattan/)
+#### [GitHub Pages Link](https://daryamakavchik.github.io/russian-travel/)
 #### [Figma link](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A634)
 
 ## Description
@@ -13,9 +13,9 @@ HTML5 | CSS3 | SCSS | JavaScript | BEM Methodology, File Structure and File Path
 
 ```bash
 # Clone the repository
-git clone https://daryamakavchik.github.io/manhattan-to-manhattan/
+git clone https://daryamakavchik.github.io/russian-travel/
 # Enter the project directory
-cd manhattan-to-manhattan
+cd russian-travel
 ```
 
 ## To Do
