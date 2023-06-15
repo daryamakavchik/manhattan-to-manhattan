@@ -3,6 +3,7 @@
 #### [GitHub Pages](https://daryamakavchik.github.io/russian-travel/)
 #### [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A634)
 
+![russian-travel-demo](https://github.com/daryamakavchik/russian-travel/assets/90967822/9653374e-5464-45c9-a750-683be447d8ff)
 
 ## Description
 "Russian Travel" is a portfolio project created as an assignment for [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program"). It is a responsive single-page website with a guide to cross-country travel.
