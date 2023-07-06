@@ -9,7 +9,7 @@
 <img width="641" alt="page1" src="https://github.com/daryamakavchik/russian-travel/assets/90967822/95ffa04f-8ab8-4bbd-86d1-633a4f5eb2dd">
 <img width="641" alt="page2" src="https://github.com/daryamakavchik/russian-travel/assets/90967822/fa2de897-3fd9-4881-950b-3984437927f5">
 <img width="641" alt="page3" src="https://github.com/daryamakavchik/russian-travel/assets/90967822/b8d85784-b7fb-4658-a120-5acbb19cac57">
-<img width="641" alt="page4" src="https://github.com/daryamakavchik/russian-travel/assets/90967822/33902942-ef80-4915-ae25-8a8f8003878e">
+<img width="641" alt="page4" src="https://github.com/daryamakavchik/russian-travel/assets/90967822/f9b98f3a-844a-4258-8ea6-06a747f91cac">
 
 
 ## Tech Stack
